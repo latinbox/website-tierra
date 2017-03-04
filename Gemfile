@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'rails', '~> 5.0.0'
-gem 'sqlite3'
+gem 'sqlite3', group: :development
+gem 'pg', group: :production
+gem 'rails_12factor', group: :production
+
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -15,6 +18,7 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'active_skin'
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
+gem 'react-rails'
 
 group :development, :test do
   gem 'byebug', platform: :mri
@@ -29,3 +33,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+

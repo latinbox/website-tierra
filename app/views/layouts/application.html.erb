@@ -1,24 +1,62 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfolio</title>
-    <%= csrf_meta_tags %>
+    <title>Tierra producciones</title>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://use.fontawesome.com/914144e452.js"></script>
+
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+        <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 'application', 'http://fonts.googleapis.com/css?family=Raleway:400,700' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= favicon_link_tag 'favicon.ico' %>
+ 
+
+
+
+  <!-- estilos boton desplegable-->
+   
+
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     <%= csrf_meta_tags %>
   </head>
 
   <body>
+  <!--<section class="seccionToggle">
+    <div class="wrap">
+      <h2>Próximo evento</h2>
+      <p>Parque Bustamante 297 al lado de plaza Italia</p>
+      <button>Go!</button>
+    </div>
+  </section>
+  <a href="#" id="btn-toggle" class="btn-toggle">Abrir</a>  -->
 
-    <%= render 'shared/header' %>
-  	<%= render 'shared/alerts' %>
-    <%= yield %>
-    <%= render 'shared/footer' %>
+  <!--<script src="section.js"></script> -->
+
+<%= render 'shared/header' %>
+
+   <%= yield %>
+<%= render 'shared/socialnetwork' %>
+    
+
+ 
+
+
+
+
+<!-- Contact Section -->
+
     
   </body>
 </html>
+
+
+
+

@@ -1,29 +1,76 @@
-<!-- Header -->
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <%= image_tag "profile.png", class: "img-responsive" %>
-                <div class="intro-text">
-                    <span class="name">Start Bootstrap</span>
-                    <hr class="star-light">
-                    <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
-                </div>
-            </div>
-        </div>
+ <section id="services" class="cf">
+    <div class="wrapper">
+    <h2 class="title">Servicios</h2>
+    <hr><hr><hr><hr><hr>
+      <div class="service">
+        <h3>Eventos corporativos</h3>
+        <p>haskjdisjidsjidjsakdejhebe</p>
+        <p>bebehoooolaaaaaestoooesuuna</p>
+        <p>bebehoooolaaaaaestoooesuuna</p>
+        <p>bebehoooolaaaaaestoooesuuna</p>
+        <p> Estamos en construcción</p>
+        <a href="#" class="button button_highlight button_small">Sepa más</a>
+      </div>
+      <div class="service">
+        <h3>Branding</h3>
+        <p>haskjdisjidsjidjsakdejhebe</p>
+        <p>bebehoooolaaaaaestoooesuuna</p>
+        <p>bebehoooolaaaaaestoooesuuna</p>
+        <p>bebehoooolaaaaaestoooesuuna</p>
+        <p> Estamos en construcción</p>
+        <a href="#" class="button button_highlight button_small">Sepa más</a>
+      </div>
+      <div class="service">
+        <h3>Branding</h3>
+        <p>haskjdisjidsjidjsakdejhebe</p>
+        <p>bebehoooolaaaaaestoooesuuna</p>
+        <p>bebehoooolaaaaaestoooesuuna</p>
+        <p>bebehoooolaaaaaestoooesuuna</p>
+        <p> Estamos en construcción</p>
+        <a href="#" class="button button_highlight button_small">Sepa más</a>
+      </div>
     </div>
-</header>
+  </section>
 
-<!-- Portfolio Grid Section -->
-<section id="portfolio">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Portfolio</h2>
-                <hr class="star-primary">
-            </div>
+    <section id="past-work">
+    <div class="wrapper">
+      <h2 class="title">Nuestra experiencia</h2>
+
+      <div class="logos">
+      <%= link_to root_path do %>
+        <%= image_tag "logosreal.png",  :style => "width: 450px; max-width: 95%;"%>
+        <% end %> 
         </div>
-        <div class="row">
+        <ul id="slider_buttons">
+          <a href="#">
+            <li class="current"></li>
+          </a>
+          <a href="#">
+            <li></li>
+          </a>
+          <a href="#">
+            <li></li>
+          </a>
+        </ul>
+      
+
+      <ul id="slider">
+      
+             <li></li>
+            <li> </li>
+            <li> </li>
+      </ul>
+     
+    </div>
+  </section>
+
+
+
+<section id="portafolio">
+<div class="wrapper">
+   <h2 class="title">Últimos eventos</h2>
+   <hr><hr><hr><hr><hr>
+   <div class="row">
                 <% @posts.each do |post| %>
                 <div class="col-sm-4 portfolio-item">
                 <%= link_to post_path(post) do %>
@@ -32,50 +79,26 @@
                 </div>
             <% end %>
         </div>
-    </div>
-</section>
 
-<!-- About Section -->
-<section class="success" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>About</h2>
-                <hr class="star-light">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-lg-offset-2">
-                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-            </div>
-            <div class="col-lg-4">
-                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="#" class="btn btn-lg btn-outline">
-                    <i class="fa fa-download"></i> Download Theme
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2><%= mail_to "hello@open-labs.io", "Contact Me", subject: "Hi! Please include your name and email address" %></h2><br>
-                <hr class="star-primary">
-            </div>
-        </div>
-</section>
-
-
-
-<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-    <a class="btn btn-primary" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-    </a>
 </div>
+
+</section>
+<section id="contact">
+    <div class="wrapperfoot">
+
+           <h2 class="sub-title">Contacto</h2>
+         <p class="subtitle"> Escríbenos directamente bajo el botón</p>
+      <ul class="fa-ul">
+ 
+  <li><i class="fa-li fa fa-spinner fa-spin"></i></li>
+  
+</ul>
+<%=  mail_to "marcela@tierraproducciones.cl", "Enviar email", subject: "Hola Porfavor incluye tu nombre y correo", :class=> "button button_highlight button_large" %>
+        <!--<a href="#" class="button button_highlight button_large ">Contacto</a> -->
+
+            
+
+        </div>
+</section>
+
+

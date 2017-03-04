@@ -1,0 +1,446 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/*!
+ * Start Bootstrap - Freelancer v1.1.1 (http://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+//= stub active_admin
+ */
+
+
+
+@import 'normalize';
+
+// - - - - - - - - - - - - - - - - - - Variables - - - - - - - - - - - - - - - - - - - //
+$white: #FFFFFF;
+$rojo: #d24d52;
+$lila: #9727bc;
+$blancocaja: #fdf9fd;
+$blancofondo: #f4e8f7;
+$fondolila: #58243f;
+$verdefuerte: #39b54a;
+
+
+
+// - - - - - - - - - - - - - - - - - - Gobal Styles - - - - - - - - - - - - - - - - - - - //
+*{
+  box-sizing: border-box;
+  font-family: Open sans;
+margin: 0 auto;
+padding: 0;
+
+
+  
+}
+.body{
+  font-family: Open sans;
+  text-rendering: optimizeLegibility;
+
+
+
+}
+.wrapper {
+
+  width: 1800px;
+  height: 732px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.button {
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  padding: .7rem 3.5rem;
+  font-weight: 700;
+  color: $white;
+  text-decoration: none;
+  text-align: center;
+	
+
+}
+.button_highlight {
+  background: $rojo;
+
+}
+.button_secondary {
+
+  background: rgba(250, 250, 250, 0.35);
+}
+.button{
+  margin: 0.75rem;
+
+}
+.button_small{
+  padding: .3rem 1.5rem;
+}
+.button_large{
+  padding: 1rem 5rem;
+  font-size: 1.35rem;
+}
+.cf:after,
+.cf:before {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+
+
+// - - - - - - - - - - - - - - - - - - Banner Styles - - - - - - - - - - - - - - - - - - - //
+#header{
+    background:#252932;
+ 
+  float:left;
+  width:100%;
+  padding:20px 0;
+  position: relative;
+
+}
+#banner {
+  background-image: url(fondotierra.jpg);
+  background-repeat: repeat;
+ background-attachment: fixed; /* Establecemos una posicion fija para la textura */
+  /* Eliminamos la propiedad de background-size */
+  background-size: cover;
+
+
+  .logotierra {
+    float: left;
+  }
+
+
+  nav {
+  float: right;
+  margin: 3 auto 25rem auto;
+
+  a {
+  color: $white;
+  font-weight: 600;
+  position: relative;
+   top: 40px;
+  text-decoration: none; 
+  margin-left: 1.5rem;
+  display:inline-block;
+  line-height:normal;
+  font-size:12px;
+  -webkit-transition:all 400ms ease;
+  -o-transition:all 400ms ease;
+  transition:all 400ms ease;
+  border-radius: 20px;
+  }
+  a:hover{
+ background:#FFA200; 
+
+  font-size: 15px;
+  }
+  }
+
+  .header2 {
+    
+       float: left;
+      width:100%;
+    z-index: 1000;
+  position: fixed;
+  nav a{
+right: 23%;
+  }
+
+}
+ 
+  .logotierra {
+  
+  float: left;
+}
+ 
+
+  .content {
+  padding: 18rem 0 6rem 0;
+  .title, .sub-title{
+  color: $white;
+  text-align: center;
+  }
+  .title{
+  font-size: 3.5rem;
+  margin: 0;
+  font-family: Open sans;
+  }
+  .subtitle{
+  font-weight: 400;
+  font-size: 1.35rem;
+  width: 500px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.75;
+
+  }
+  .button-wrapper {
+    text-align: center;
+    padding: 1.8rem; 
+    margin: 3rem 0;
+  }
+
+  }
+
+}
+// - - - - - - - - - - - - - - - - - - Services Styles - - - - - - - - - - - - - - - - - - - //
+#services{
+  background: $blancofondo;
+padding: 20rem 0 6.5rem 0;
+  position: relative;
+  text-align: center;
+  color: black;
+   
+   .title {
+
+  font-size: 2.7rem;
+   margin: 0 0 0.75rem 0;
+  }
+  
+    .service{
+  background: $white;
+  width: 31%;
+  float: left;
+  margin: -5rem 1% 0 1%;
+  padding: 3rem 2.5%;
+  text-align: center;
+  position: relative;
+  -webkit-box-shadow: 0px 2px 57px 0px rgba(35, 31, 32, 0.25);
+  -moz-box-shadow: 0px 2px 57px 0px rgba(35, 31, 32, 0.25);
+  box-shadow: 0px 2px 57px 0px rgba(35, 31, 32, 0.25);
+  border-radius: .35rem;
+
+
+      }
+  h3{
+  margin: 0;
+  font-size: 1.5rem;
+  color: black;
+
+  }
+
+  .button{
+    padding: .5rem 2rem;
+  }
+
+
+}
+
+
+
+// - - - - - - - - - - - - - - - - - - Nuestra experiencia Styles - - - - - - - - - - - - - - - - - - - //
+
+
+#past-work{
+  background: $fondolila;
+  padding: 20rem 0 6.5rem 0;
+  position: relative;
+  text-align: center;
+
+  
+  .title{
+  color: $white;
+  font-size: 2.7rem;
+  margin: 0 0 0.75rem 0;
+    }
+  #slider_buttons{
+      background: $fondolila;
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+    li {
+      width: 9px;
+      height: 9px;
+      margin: 0 .5rem;
+      position: relative;
+      border-radius: 100%;
+      display: inline-block;
+      background-color: rgb(136, 93, 73);
+      transition: background .4s ease-in-out;
+      &:hover {
+        background-color: $verdefuerte;
+      }
+
+    }
+    .current {
+      background-color: $verdefuerte;
+    }
+  }
+  #slider {
+      padding: 25rem 0 6.5rem 0;
+      position: relative;
+      list-style: none;
+      border-radius: .35rem;
+      margin-left: 0px;
+
+    li {
+      width: 600px;
+      height: 375px;
+      overflow: hidden;
+      -webkit-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+      -moz-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+      box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+      border-radius: .35rem .35rem 0 0;
+      position: absolute;
+       z-index: 3;
+    
+    image_tag {
+    width: 100%;
+     border-radius: .35rem;
+
+    }
+    &:nth-child(1) {
+    background-image: url(slideizq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+      bottom: -37px;
+      left: -1px;
+      -webkit-transform: scale(.9,.9);
+      -moz-transform: scale(.9,.9);
+      transform: scale(.9,.9);
+     
+     
+    }
+      &:nth-child(2) {
+      background-image: url(slidemid.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      left: 50%;
+      margin-left: -300px;
+      -webkit-transform: scale(.9,.9);
+      -moz-transform: scale(.9,.9);
+      transform: scale(.9,.9);
+      z-index: 4;
+      bottom: -57px;
+     
+     
+    }
+      &:nth-child(3) {
+    background-image: url(slideder.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+      bottom: -37px;
+      right: 0;
+      -webkit-transform: scale(.9,.9);
+      -moz-transform: scale(.9,.9);
+      transform: scale(.9,.9);
+      z-index: 2;
+     
+     
+    }
+    
+
+  }
+    }
+    
+// - - - - - - - - - - - - - - - - - - Ultimos eventos - - - - - - - - - - - - - - - - - - - //
+ 
+
+  }
+   #portafolio{
+   padding: 20rem 0 6.5rem 0;
+  position: relative;
+  background-color: $blancofondo;
+  text-align: center;
+  
+
+      .title{
+        font-weight: 2.5rem;
+  font-size: 2.7rem;
+  margin: 0 0 0.75rem 0;
+      }
+      .row {
+        position: relative;
+         text-align: center;
+      }
+    
+
+  }
+
+  // - - - - - - - - - - - - - - - - - - CONTACTO - - - - - - - - - - - - - - - - - - - //
+
+
+  #contact{
+  
+  padding: 20rem 0 6.5rem 0;
+  position: relative;
+ 
+
+  text-align: center;
+  .title{
+
+  font-size: 2.7rem;
+  margin: 0 0 0.75rem 0;
+      }
+      .subtitle{
+        font-size: 1.5rem;
+        width: 600px;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto 4rem auto;
+      }
+
+
+  }
+    // - - - - - - - - - - - - - - - - - - FOOTER - - - - - - - - - - - - - - - - - - - //
+
+  .pie{
+    width: 100%;
+    float: left;
+     padding:20px 0 3rem 0;
+    position: absolute;
+    top: 180px;
+
+    border-top: solid 1.5px black;
+    text-align: center;
+    background:#FFA200; 
+    display:block;
+
+.copyright{
+  text-align: center;
+  font-weight: 600;
+  color: black;
+  a {
+     color: $verdefuerte;
+     text-decoration: none;
+  }
+}
+    
+
+  }
+  fa-ul{
+     text-align: center;
+  }
+
+

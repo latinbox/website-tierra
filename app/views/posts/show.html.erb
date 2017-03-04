@@ -1,3 +1,4 @@
+
 <!-- Page Content -->
 <div class="container post-container">
 
@@ -5,7 +6,7 @@
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header"><%= @post.title %>
-                <small>Item Subheading</small>
+                <small>subtitulo</small>
             </h1>
         </div>
     </div>
@@ -19,7 +20,7 @@
         </div>
 
         <div class="col-md-4">
-            <h3>Project Description</h3>
+            <h3>Descripción del proyecto</h3>
             <p><%= @post.body %></p>
         </div>
 
@@ -30,7 +31,7 @@
     <div class="row">
 
         <div class="col-lg-12">
-            <h3 class="page-header">Related Projects</h3>
+            <h3 class="page-header">proyectos relacionados</h3>
         </div>
 
         <% @posts.each do |post| %>
@@ -44,3 +45,5 @@
     </div>
     <!-- /.row -->
 </div>
+
+
