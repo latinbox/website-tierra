@@ -128,7 +128,7 @@ padding: 0;
 
 }
 #banner {
-  background-image: url(./fondotierra.jpg);
+  background-image: asset-data-url("fondotierra.jpg");
   background-size: cover;
   background-attachment: fixed;
   
