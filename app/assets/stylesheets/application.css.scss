@@ -128,11 +128,18 @@ padding: 0;
 
 }
 #banner {
-  background-image: url(fondotierra.jpg);
-  background-repeat: repeat;
- background-attachment: fixed; /* Establecemos una posicion fija para la textura */
-  /* Eliminamos la propiedad de background-size */
+  background-image: url(./fondotierra.jpg);
   background-size: cover;
+  background-attachment: fixed;
+  
+   /* Establecemos una posicion fija para la textura */
+  /* Eliminamos la propiedad de background-size 
+
+background-repeat: repeat;
+ background-attachment: fixed;
+  */
+
+  //background-size: cover;
 
 
   .logotierra {
@@ -395,7 +402,7 @@ padding: 20rem 0 6.5rem 0;
   
   padding: 20rem 0 6.5rem 0;
   position: relative;
- 
+ background: black; 
 
   text-align: center;
   .title{
@@ -439,8 +446,6 @@ padding: 20rem 0 6.5rem 0;
     
 
   }
-  fa-ul{
-     text-align: center;
-  }
+  
 
 
