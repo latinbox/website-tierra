@@ -326,7 +326,7 @@ padding: 20rem 0 6.5rem 0;
 
     }
     &:nth-child(1) {
-    background-image: url(slideizq.jpg);
+    background-image: asset-data-url("slideizq.jpg");
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -339,7 +339,7 @@ padding: 20rem 0 6.5rem 0;
      
     }
       &:nth-child(2) {
-      background-image: url(slidemid.jpg);
+      background-image: asset-data-url("slidemid.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       left: 50%;
@@ -353,7 +353,7 @@ padding: 20rem 0 6.5rem 0;
      
     }
       &:nth-child(3) {
-    background-image: url(slideder.jpg);
+     background-image: asset-data-url("slideder.jpg");
     background-repeat: no-repeat;
     background-size: cover;
    
