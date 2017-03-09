@@ -5,6 +5,7 @@
         <% end %> 
 -->
  <header class="header">
+
  
     <!--<p id="logo"> Tierra Producciones</p> -->
     <div class="logotierra">
@@ -12,14 +13,17 @@
         <%= image_tag "logotierranuevoreal.png", :style => "width: 180px; max-width: 100%;" %>
         <% end %> 
     </div>
+
 <% if controller_name == 'posts_controller' %>
    <nav>
-    <a  href="<%= pages_index_path(:anchor => "home") %>" class="button_small">Home</a>
-    <a  href="<%= pages_index_path(:anchor => "services") %>" class="button_small">Servicios</a>
-    <a  href="<%= pages_index_path(:anchor => "past-work") %>" class="button_small">Nuestra experiencia</a>
-    <a  href="<%= pages_index_path(:anchor => "portafolio") %>" class="button_small">Últimos eventos</a>
-    <a  href="<%= pages_index_path(:anchor => "contact") %>" class="button_small">Contacto</a>
-   
+   <ul>
+    <li><a  href="<%= pages_index_path(:anchor => "home") %>" class="button_small">Home</a></li>
+    <li><a  href="<%= pages_index_path(:anchor => "services") %>" class="button_small">Servicios</a></li>
+    <li><a  href="<%= pages_index_path(:anchor => "past-work") %>" class="button_small">Nuestra experiencia</a></li>
+    <li><a  href="<%= pages_index_path(:anchor => "portafolio") %>" class="button_small">Últimos eventos</a></li>
+    <li><a  href="<%= pages_index_path(:anchor => "contact") %>" class="button_small">Contacto</a>
+   </ul></li>
+   </ul>
   </nav>
   <% else %>
   <nav>
