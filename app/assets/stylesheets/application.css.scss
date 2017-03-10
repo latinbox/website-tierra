@@ -120,7 +120,7 @@ padding: 0;
 // - - - - - - - - - - - - - - - - - - Banner Styles - - - - - - - - - - - - - - - - - - - //
 #header{
     background:#252932;
- 
+ position: fixed;
   float:left;
   width:100%;
   padding:20px 0;
@@ -135,7 +135,6 @@ padding: 0;
   .logotierra {
     float: left;
   }
-
 
   nav {
   float: right;
@@ -175,12 +174,10 @@ padding: 0;
 display: block;
     float: none;
     border-bottom:rgba(255,255,255, .3);
-        
-      }
-    }
-
+        }
     }
   }
+}
 
   
 
