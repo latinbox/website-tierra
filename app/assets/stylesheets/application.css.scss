@@ -124,7 +124,8 @@ padding: 0;
   float:left;
   width:100%;
   padding:20px 0;
-  position: relative;
+  
+  z-index: 100;
 
 }
 #banner {
@@ -162,38 +163,13 @@ padding: 0;
   font-size: 15px;
   }
   }
-  #banner {
-      @media screen  and (max-width:800px){
-    nav{
-      width: 80%;
-      height: 100%;
-      margin: 0;
-      position: fixed;
-      ul li{
-        
-display: block;
-    float: none;
-    border-bottom:rgba(255,255,255, .3);
-        }
-    }
-  }
-}
+ 
 
   
 
   }
 
-  .header2 {
-    
-       float: left;
-      width:100%;
-    z-index: 1000;
-  position: fixed;
-  nav a{
-right: 23%;
-  }
-
-}
+ 
  
   .logotierra {
   
@@ -225,20 +201,7 @@ right: 23%;
     padding: 1.8rem; 
     margin: 3rem 0;
   }
- @media screen  and (max-width:800px){
-    header nav   {
-      width: 80%;
-      height: 100%;
-      margin: 0;
-      position: fixed;
-    }
-    header nav ul li a{
-    display: block;
-    float: none;
-    border-bottom:rgba(255,255,255, .3);
-  }
-
-  }
+ 
   
  
   }
@@ -472,5 +435,27 @@ padding: 20rem 0 6.5rem 0;
 
   }
   
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+  padding: 0;
+  margin: 0;
+}
+ 
+/*Agregamos margenes inferiores a los parrafos*/
 
+
+header {
+ 
+  width: 90%;
+  position: fixed;
+  z-index: 100;
+}
+
+ 
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+  overflow:hidden;
+}
 
