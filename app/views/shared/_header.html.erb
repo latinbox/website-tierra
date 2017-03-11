@@ -1,18 +1,26 @@
+
+<div class="menu_bar">
+
+     <span class="glyphicon glyphicon-list" style="top: 50px; left: 12px;",  aria-hidden="true"></span>
+    
+     
+    <a href="#" class="bt-menu" class="img-responsive"><%= image_tag "logotierranuevoreal.png", :style => "width: 160px; max-width: 100%; float: right;" %>
+         </a>
+        
+    </div>
+
 <section id="banner">
   <div class ="wrapper">
   
   <header class="header">
 
     <!--<p id="logo"> Tierra Producciones</p> -->
-    <div class="logotierra">
-    <%= link_to root_path do %>
-        <%= image_tag "logotierranuevoreal.png", :style => "width: 180px; max-width: 100%;" %>
-        <% end %> 
-    </div>
 
+    
 <% if controller_name == 'posts_controller' %>
+    
    <nav>
-   <ul>
+   <ul id="menu">
     <li><a  href="<%= pages_index_path(:anchor => "home") %>" class="button_small">Home</a></li>
     <li><a  href="<%= pages_index_path(:anchor => "services") %>" class="button_small">Servicios</a></li>
     <li><a  href="<%= pages_index_path(:anchor => "past-work") %>" class="button_small">Nuestra experiencia</a></li>
@@ -22,7 +30,7 @@
    
   </nav>
   <% else %>
-
+   
   <nav>
     <a href="#" class="button_small">Home</a>
     <a href="#services" class="button_small">Servicios</a>
@@ -32,8 +40,9 @@
   </nav>
 <% end %>
   </header>
+
   <div class="content">
-    
+   
       <h1 class="title">Líder en Producción y Organización de Eventos</h1>
       <h2 class="sub-title">12 años al servicio del norte grande </h2>
       <div class="button-wrapper">
