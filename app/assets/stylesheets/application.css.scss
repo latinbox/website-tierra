@@ -57,7 +57,7 @@ $verdefuerte: #39b54a;
   font-family: Open sans;
 margin: 0 auto;
 padding: 0;
-z-index: 20;
+z-index: 40;
 
 
   
@@ -264,7 +264,7 @@ padding: 20rem 0 6.5rem 0;
   padding: 20rem 0 6.5rem 0;
   position: relative;
   text-align: center;
-
+  z-index: 4
   
   .title{
   color: $white;
@@ -372,6 +372,7 @@ padding: 20rem 0 6.5rem 0;
   position: relative;
   background-color: $blancofondo;
   text-align: center;
+   z-index: 4
   
 
       .title{
@@ -395,7 +396,7 @@ padding: 20rem 0 6.5rem 0;
   padding: 20rem 0 6.5rem 0;
   position: relative;
  background: black; 
-
+   z-index: 4
   text-align: center;
   .title{
 
