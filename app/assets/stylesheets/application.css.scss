@@ -64,13 +64,13 @@ padding: 0;
 .body{
   font-family: Open sans;
   text-rendering: optimizeLegibility;
-  z-index: 20;
+  
 
 
 
 }
 .wrapper {
-
+  z-index: 0;
   width: 1800px;
   height: 732px;
   max-width: 90%;
