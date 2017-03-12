@@ -64,6 +64,7 @@ padding: 0;
 .body{
   font-family: Open sans;
   text-rendering: optimizeLegibility;
+  z-index: 20;
 
 
 
@@ -214,7 +215,7 @@ padding: 20rem 0 6.5rem 0;
   position: relative;
   text-align: center;
   color: black;
-  
+
    
    .title {
 
@@ -449,7 +450,7 @@ header {
  
   width: 90%;
   position: fixed;
-  z-index: 100;
+ 
 }
 
  
