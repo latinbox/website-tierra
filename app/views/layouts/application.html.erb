@@ -23,7 +23,34 @@
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
   <!-- Latest compiled and minified JavaScript -->
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+ <script>
+   
+$(document).ready(main);
  
+var contador = 1;
+ 
+function main () {
+  $('.menu_bar').click(function(){
+    if (contador == 1) {
+      $('nav').animate({
+        left: '0'
+      });
+      contador = 0;
+    } else {
+      contador = 1;
+      $('nav').animate({
+        left: '-100%'
+      });
+    }
+  });
+ 
+  // Mostramos y ocultamos submenus
+  $('.submenu').click(function(){
+    $(this).children('.children').slideToggle();
+  });
+}
+
+ </script>
  
 
   </head>
