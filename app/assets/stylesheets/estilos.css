@@ -4,7 +4,6 @@
 
 .menu_bar {
 	display:none;
-	z-index: 3000;
 }
 
 
@@ -79,13 +78,14 @@ header nav ul li .caret {
 	}
 
 	.menu_bar {
+
 		display:block;
 
 		width:100%;
 		position: fixed;
 		top:0px;
-
 		background:#E6344A;
+		z-index: 1000;
 	}
 
 	.menu_bar .bt-menu {
