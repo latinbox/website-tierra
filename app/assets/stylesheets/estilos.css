@@ -4,6 +4,7 @@
 
 .menu_bar {
 	display:none;
+	z-index: 200;
 }
 
 
@@ -43,7 +44,7 @@ header nav ul li .children {
 	background:#011826;
 	position: absolute;
 	width: 150%;
-	z-index:1000;
+	
 }
 
 header nav ul li .children li {
