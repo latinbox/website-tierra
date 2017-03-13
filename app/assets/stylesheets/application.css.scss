@@ -123,6 +123,7 @@ padding: 0;
   float:left;
   width:100%;
   padding:20px 0;
+
   
 
 }
@@ -136,6 +137,7 @@ padding: 0;
   }
 
   nav {
+    z-index: 20;
   float: right;
   margin: 3 auto 25rem auto;
   max-width: 1000px;
