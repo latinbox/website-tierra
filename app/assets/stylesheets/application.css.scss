@@ -120,7 +120,7 @@ padding: 0;
 #header{
 
     background:#252932;
- position: relative;
+ position: fixed;
   float:left;
   width:100%;
   padding:20px 0;
@@ -209,6 +209,7 @@ padding: 0;
 
 // - - - - - - - - - - - - - - - - - - Services Styles - - - - - - - - - - - - - - - - - - - //
 #services{
+  z-index: -4;
   background: $blancofondo;
 padding: 20rem 0 6.5rem 0;
   position: relative;
@@ -258,6 +259,7 @@ padding: 20rem 0 6.5rem 0;
 
 
 #past-work{
+  z-index: -4;
   background: $fondolila;
   padding: 20rem 0 6.5rem 0;
   position: relative;
@@ -366,6 +368,7 @@ padding: 20rem 0 6.5rem 0;
 
   }
    #portafolio{
+    z-index: -4;
    padding: 20rem 0 6.5rem 0;
   position: relative;
   background-color: $blancofondo;
@@ -453,6 +456,7 @@ header {
   position: fixed;
  
 }
+
 
  
 
