@@ -76,9 +76,11 @@ header nav ul li .caret {
 
 	body {
 		padding-top:80px;
+		z-index: 10;
 	}
 
 	.menu_bar {
+		z-index: 200;
 
 		display:block;
 
