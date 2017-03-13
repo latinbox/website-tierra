@@ -126,14 +126,14 @@ padding: 0;
   float:left;
   width:100%;
   padding:20px 0;
-  z-index: 2;
+  
 
 }
 #banner {
   background-image: asset-data-url("fondotierra.jpg");
   background-size: cover;
   background-attachment: fixed;
-  z-index: 2;
+  
   .logotierra {
     float: left;
   }
@@ -215,7 +215,7 @@ padding: 20rem 0 6.5rem 0;
   position: relative;
   text-align: center;
   color: black;
-  z-index: 4;
+  
 
    
    .title {
@@ -263,7 +263,7 @@ padding: 20rem 0 6.5rem 0;
   padding: 20rem 0 6.5rem 0;
   position: relative;
   text-align: center;
-  z-index: 4;
+  
   
   .title{
   color: $white;
@@ -371,7 +371,7 @@ padding: 20rem 0 6.5rem 0;
   position: relative;
   background-color: $blancofondo;
   text-align: center;
-   z-index: 4;
+   
   
 
       .title{
@@ -449,7 +449,7 @@ padding: 20rem 0 6.5rem 0;
 
 
 header {
- 
+ z-index: 100;
   width: 90%;
   position: fixed;
  

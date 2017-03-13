@@ -4,7 +4,7 @@
 
 .menu_bar {
 	display:none;
-	z-index: 200;
+	z-index: 120;
 }
 
 
@@ -79,7 +79,7 @@ header nav ul li .caret {
 	}
 
 	.menu_bar {
-		z-index: 2;
+	
 		display:block;
 
 		width:100%;
