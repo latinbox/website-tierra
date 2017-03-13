@@ -118,7 +118,7 @@ padding: 0;
 
 // - - - - - - - - - - - - - - - - - - Banner Styles - - - - - - - - - - - - - - - - - - - //
 #header{
-      z-index: 20;
+      
     background:#252932;
  position: fixed;
   float:left;
@@ -129,6 +129,7 @@ padding: 0;
 
 }
 #banner {
+  z-index: 4;
   background-image: asset-data-url("fondotierra.jpg");
   background-size: cover;
   background-attachment: fixed;
