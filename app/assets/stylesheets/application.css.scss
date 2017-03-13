@@ -118,6 +118,7 @@ padding: 0;
 
 // - - - - - - - - - - - - - - - - - - Banner Styles - - - - - - - - - - - - - - - - - - - //
 #header{
+  z-index: 300;
     background:#252932;
  position: fixed;
   float:left;
@@ -137,7 +138,6 @@ padding: 0;
   }
 
   nav {
-    z-index: 20;
   float: right;
   margin: 3 auto 25rem auto;
   max-width: 1000px;
