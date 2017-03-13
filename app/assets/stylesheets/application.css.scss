@@ -79,8 +79,8 @@ padding: 0;
 .button {
   border: none;
   outline: none;
-  border-radius: 3rem;
-  padding: .6rem 3.5rem;
+  border-radius: 5rem;
+  padding: .7rem 3.5rem;
   font-weight: 800;
   color: $white;
   text-decoration: none;
@@ -101,7 +101,7 @@ padding: 0;
 
 }
 .button_small{
-  padding: .4rem 1.5rem;
+  padding: .6rem 1.5rem;
 }
 .button_large{
   padding: 1.2rem 5rem;
@@ -199,6 +199,7 @@ padding: 0;
 
   }
   .button-wrapper {
+    display: block;
     text-align: center;
     padding: 1.8rem; 
     margin: 3rem 0;
