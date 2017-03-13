@@ -63,6 +63,7 @@ padding: 0;
   
 }
 .body{
+  z-index: -2;
   font-family: Open sans;
   text-rendering: optimizeLegibility;
   
@@ -394,11 +395,12 @@ padding: 20rem 0 6.5rem 0;
 
 
   #contact{
+
    z-index: -4;
   padding: 20rem 0 6.5rem 0;
   position: relative;
  background: black; 
-  
+  color: white;
   text-align: center;
   .title{
 
