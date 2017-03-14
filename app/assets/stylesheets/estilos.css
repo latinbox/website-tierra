@@ -37,13 +37,18 @@ header nav ul li a {
 	text-decoration:none;
 	padding: 20px;
 }
-
+/*
 header nav ul li a span {
 	margin-right:10px;
 }
-
+*/
 header nav ul li:hover .children {
 	display:block;
+	
+
+
+
+  
 }
 
 header nav ul li .children {
@@ -81,12 +86,7 @@ header nav ul li .caret {
 
 
 @media screen and (max-width: 700px) {
-    a:hover{
-
- background:#FFA200; 
-
-  
-  }
+   
 
 	body {
 		padding-top:80px;
@@ -135,6 +135,9 @@ header nav ul li .caret {
 
 	header nav ul li a {
 		display: block;
+	}
+	header nav ul li a:hover {
+		background:  background:#FFA200;
 	}
 
 	header nav ul li:hover .children {
