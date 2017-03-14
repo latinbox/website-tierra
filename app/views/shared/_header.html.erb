@@ -5,58 +5,56 @@
          </a>
      
   </div>
+
+
 <section id="banner">
-  
- 
-  <header class="header">
+   <header class="header">
    <!--<p id="logo"> Tierra Producciones</p> --> 
 
           
 <% if controller_name == 'posts_controller' %>
    
-   <nav>
-   <ul>
+  <nav>
+     <ul>
 
       <li><a  href="<%= pages_index_path(:anchor => "home") %>" class="button_small">Home</a></li>
       <li><a  href="<%= pages_index_path(:anchor => "services") %>" class="button_small">Servicios</a></li>
       <li><a  href="<%= pages_index_path(:anchor => "past-work") %>" class="button_small">Nuestra experiencia</a></li>
       <li><a  href="<%= pages_index_path(:anchor => "portafolio") %>" class="button_small">Últimos eventos</a></li>
       <li><a  href="<%= pages_index_path(:anchor => "contact") %>" class="button button_secondary button_small">Contacto</a></li>
-   </ul>
-   
+    </ul>
   </nav>
   <% else %>
    
-   <nav>
-   <ul>
+  <nav>
+      <ul>
     <li><a href="#" class="button_small">Home</a></li>
     <li><a href="#services" class="button_small">Servicios</a></li>
     <li><a href="#past-work" class="button_small">Nuestra experiencia</a></li>
     <li><a href="#portafolio" class="button_small">Últimos eventos</a></li>
     <li><a href="#contact" class="button button_secondary button_small">Contacto</a></li>
-    </ul>
-   </nav>
+      </ul>
+  </nav>
 
   </header>
 <% end %>
       <div class="content">
-   
-      <h1 class="title">Líder en Producción y Organización de Eventos</h1>
-      <h2 class="sub-title">12 años al servicio del norte grande </h2>
-      <div class="button-wrapper">
-      <div class="row" role="group" >
-      <a href="#" class=".col-xs-6 .col-sm-3  button button_highlight btn-responsive">Play video</a> <br><br><br>
-      <a href="#" class=".col-xs-6 .col-sm-3  button button_secondary btn-responsive">Go tierra</a>
-    </div>
-    <br>
-  </div>
+          <h1 class="title">Líder en Producción y Organización de Eventos</h1>
+          <h2 class="sub-title">12 años al servicio del norte grande </h2>
+          <div class="button-wrapper">
+          <div class="row" role="group" >
+          <a href="#" class=".col-xs-6 .col-sm-3  button button_highlight btn-responsive">Play video</a> <br><br><br>
+          <a href="#" class=".col-xs-6 .col-sm-3  button button_secondary btn-responsive">Go tierra</a>
+        </div>
+        <br>
+      </div>
   <a href="#portafolio" class="bt-menu" class="img-responsive"><%= image_tag "flechitablanca.png", :style => "width: 80px; max-width: 100%;  display: block; margin: 0 auto; " %>
          </a>
       </div>
-  </nav>
-  </header>
+    </nav>
+   
   
-  </section>
+</section>
 
 
 
