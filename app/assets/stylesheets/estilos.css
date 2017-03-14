@@ -81,7 +81,12 @@ header nav ul li .caret {
 
 
 @media screen and (max-width: 700px) {
+    a:hover{
 
+ background:#FFA200; 
+
+  
+  }
 
 	body {
 		padding-top:80px;
