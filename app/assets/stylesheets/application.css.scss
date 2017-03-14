@@ -461,7 +461,7 @@ padding: 20rem 0 6.5rem 0;
 
 
 header {
- z-index: 250;
+ z-index: 2500;
   width: 90%;
   position: fixed;
  
@@ -470,4 +470,9 @@ header {
 
  
 
+.wrapper {
+  width: 90%;
+  margin: auto;
+  overflow:hidden;
+}
 
