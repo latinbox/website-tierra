@@ -130,8 +130,7 @@ header nav ul li .caret {
 	}
 
 	header nav ul li:hover .children {
-		display: none;
-	}
+			}
 
 	header nav ul li .children {
 		width: 100%;
