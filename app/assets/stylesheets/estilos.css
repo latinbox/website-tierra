@@ -13,7 +13,9 @@
 	display:none;
 }
 
-
+header nav {
+	background: #023859;
+}
 
 
 header nav ul {
