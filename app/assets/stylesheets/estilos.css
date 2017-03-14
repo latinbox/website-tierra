@@ -1,14 +1,18 @@
 
 
 
-
-.menu_bar {
-	display:none;
-	z-index: 200;
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-
-
+body {background:#FEFEFE;}
+.menu_bar {
+	display:none;
+}
 
 
 header nav ul {
@@ -18,11 +22,13 @@ header nav ul {
 header nav ul li {
 	display:inline-block;
 	position: relative;
+	top: 44px;
 }
-
+/*
 header nav ul li:hover {
 	background:#E6344A;
 }
+*/
 
 header nav ul li a {
 	color:#fff;
@@ -72,7 +78,9 @@ header nav ul li .caret {
 	margin-right:0px;
 }
 
+
 @media screen and (max-width: 700px) {
+
 
 	body {
 		padding-top:80px;
@@ -81,7 +89,6 @@ header nav ul li .caret {
 	.menu_bar {
 	
 		display:block;
-
 		width:100%;
 		position: fixed;
 		top:0px;

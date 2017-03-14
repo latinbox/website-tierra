@@ -57,7 +57,9 @@ $verdefuerte: #39b54a;
   font-family: Open sans;
 margin: 0 auto;
 padding: 0;
-
+-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 
 
   
@@ -118,6 +120,7 @@ padding: 0;
 
 
 // - - - - - - - - - - - - - - - - - - Banner Styles - - - - - - - - - - - - - - - - - - - //
+
 #header{
       
     background:#252932;
@@ -143,8 +146,8 @@ padding: 0;
   float: right;
   margin: 3 auto 25rem auto;
   max-width: 1000px;
-
-  a {
+/*
+  uli li a {
   color: $white;
   font-weight: 600;
   position: relative;
@@ -159,6 +162,7 @@ padding: 0;
   transition:all 400ms ease;
   border-radius: 20px;
   }
+  */
   a:hover{
  background:#FFA200; 
 
@@ -176,6 +180,7 @@ padding: 0;
   .logotierra {
   
   float: left;
+  left: 2rem;
 }
 
 
@@ -371,7 +376,7 @@ padding: 20rem 0 6.5rem 0;
 
   }
    #portafolio{
-    
+
     z-index: -4;
    padding: 20rem 0 6.5rem 0;
   position: relative;

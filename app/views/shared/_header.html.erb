@@ -15,28 +15,30 @@
 <% if controller_name == 'posts_controller' %>
    
    <nav>
-   <ul id="menu">
+   <ul>
       <li><a  href="<%= pages_index_path(:anchor => "home") %>" class="button_small">Home</a></li>
       <li><a  href="<%= pages_index_path(:anchor => "services") %>" class="button_small">Servicios</a></li>
       <li><a  href="<%= pages_index_path(:anchor => "past-work") %>" class="button_small">Nuestra experiencia</a></li>
       <li><a  href="<%= pages_index_path(:anchor => "portafolio") %>" class="button_small">Últimos eventos</a></li>
-      <li><a  href="<%= pages_index_path(:anchor => "contact") %>" class="button_small">Contacto</a>
+      <li><a  href="<%= pages_index_path(:anchor => "contact") %>" class="button_small">Contacto</a></li>
    </ul>
    
   </nav>
   <% else %>
    
    <nav>
+   <ul>
     <li><a href="#" class="button_small">Home</a></li>
     <li><a href="#services" class="button_small">Servicios</a></li>
     <li><a href="#past-work" class="button_small">Nuestra experiencia</a></li>
     <li><a href="#portafolio" class="button_small">Últimos eventos</a></li>
     <li><a href="#contact" class="button button_secondary button_small">Contacto</a></li>
+    </ul>
    </nav>
 <% end %>
   </header>
 
-    <div class="content">
+      <div class="content">
    
       <h1 class="title">Líder en Producción y Organización de Eventos</h1>
       <h2 class="sub-title">12 años al servicio del norte grande </h2>
@@ -49,8 +51,18 @@
   </div>
   <a href="#portafolio" class="bt-menu" class="img-responsive"><%= image_tag "flechitablanca.png", :style => "width: 80px; max-width: 100%;  display: block; margin: 0 auto; " %>
          </a>
-  </div>
-  </li>
-  </ul>
+      </div>
   </nav>
+  </header>
+
+  </div>
   </section>
+
+
+
+
+
+
+
+
+
