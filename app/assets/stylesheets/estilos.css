@@ -19,16 +19,16 @@ header nav ul {
 	list-style:none;
 }
 
-header nav ul li {
+header nav ul li a{
 	display:inline-block;
 	position: relative;
 	top: 44px;
 }
-
+/*
 header nav ul li:hover {
-	background: transparent;
+	background:#E6344A;
 }
-
+*/
 
 header nav ul li a {
 	color:#fff;
