@@ -24,11 +24,11 @@ header nav ul li {
 	position: relative;
 	top: 44px;
 }
-/*
+
 header nav ul li:hover {
-	background:#E6344A;
+	background: transparent;
 }
-*/
+
 
 header nav ul li a {
 	color:#fff;
