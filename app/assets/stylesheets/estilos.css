@@ -116,7 +116,7 @@ header nav ul li .caret {
 	}
 
 	header nav {
-		z-index: 140;
+		
 		/* Por qué no aparece el fondo azul en el nav??*/
 		background: #023859;
 		width: 80%;
