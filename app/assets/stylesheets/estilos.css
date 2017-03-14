@@ -42,12 +42,10 @@ header nav ul li a span {
 	margin-right:10px;
 }
 */
+
+/*
 header nav ul li:hover .children {
 	display:block;
-	
-
-
-
   
 }
 
@@ -84,7 +82,7 @@ header nav ul li .caret {
 	margin-right:0px;
 }
 
-
+*/
 @media screen and (max-width: 700px) {
    
 
