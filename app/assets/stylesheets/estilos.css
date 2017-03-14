@@ -19,7 +19,7 @@ header nav ul {
 	list-style:none;
 }
 
-header nav ul li a{
+header nav ul li {
 	display:inline-block;
 	position: relative;
 	top: 44px;
@@ -116,6 +116,7 @@ header nav ul li .caret {
 	}
 
 	header nav {
+		z-index: 140;
 		/* Por qué no aparece el fondo azul en el nav??*/
 		background: #023859;
 		width: 80%;
