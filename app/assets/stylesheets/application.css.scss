@@ -147,7 +147,7 @@ padding: 0;
   margin: 3 auto 25rem auto;
   max-width: 1000px;
 /*
-   li a {
+  ulia {
   color: $white;
   font-weight: 600;
   position: relative;
@@ -162,7 +162,12 @@ padding: 0;
   transition:all 400ms ease;
   border-radius: 20px;
   } */
-    
+    a:hover{
+
+ background:#FFA200; 
+
+  font-size: 15px;
+  }
   }
  
 
@@ -208,7 +213,6 @@ padding: 0;
   
  
   }
-
 
 
 // - - - - - - - - - - - - - - - - - - Services Styles - - - - - - - - - - - - - - - - - - - //
@@ -468,9 +472,8 @@ header {
  
 
 .wrapper {
-   width: 1800px;
-  height: 732px;
-  max-width: 90%;
-  margin: 0 auto;
+  width: 90%;
+  margin: auto;
+  overflow:hidden;
 }
 
