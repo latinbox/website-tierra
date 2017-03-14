@@ -8,7 +8,8 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
+ background:#FFA200; 
+body { background:#FFA200; }
 .menu_bar {
 	display:none;
 }
@@ -46,7 +47,7 @@ header nav ul li:hover .children {
 
 header nav ul li .children {
 	display: none;
-	
+	background:#011826;
 	position: absolute;
 	width: 150%;
 	
