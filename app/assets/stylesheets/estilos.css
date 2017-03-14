@@ -9,7 +9,6 @@
 	box-sizing: border-box;
 }
 
-body {background:#FEFEFE;}
 .menu_bar {
 	display:none;
 }
@@ -92,7 +91,7 @@ header nav ul li .caret {
 		width:100%;
 		position: fixed;
 		top:0px;
-	
+		background:#E6344A;
 		
 	}
 
