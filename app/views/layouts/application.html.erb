@@ -57,10 +57,83 @@ function main () {
       width: 90%;
       position: fixed;
     }
+</style>
+<style>
+  
+    @media screen and (max-width: 700px) {
+   
 
+  body {
+    padding-top:80px;
+  }
 
+  .menu_bar {
+  
+    display:block;
+    width:100%;
+    position: fixed;
+    top:0px;
+    background:#E6344A;
+    
+  }
 
+  .menu_bar .bt-menu {
+    display: block;
+    padding: 30px;
+    color: #fff;
 
+    overflow: hidden;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .menu_bar span {
+    float: left;
+    font-size: 40px;
+  }
+
+  header nav {
+    /* Por qué no aparece el fondo azul en el nav??*/
+    background: #023859;
+    width: 80%;
+    height: calc(42% - 70px);
+    position: fixed;
+    right:100%;
+    margin: 35px auto;
+    overflow: scroll;
+  }
+
+  header nav ul li {
+    display: block;
+    border-bottom:1px solid rgba(255,255,255,.5);
+  }
+
+  header nav ul li a {
+    display: block;
+  }
+  header nav ul li a:hover {
+    
+  }
+
+/*
+  header nav ul li:hover .children {
+      }
+
+  header nav ul li .children {
+    width: 100%;
+    position: relative;
+  }
+
+  header nav ul li .children li a {
+    margin-left:20px;
+  }
+
+  header nav ul li .caret {
+    float: right;
+  }
+  */
+}
 </style>
  
 
