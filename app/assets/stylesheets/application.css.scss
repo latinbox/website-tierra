@@ -55,14 +55,11 @@ $verdefuerte: #39b54a;
 *{
   box-sizing: border-box;
   font-family: Open sans;
-margin: 0 auto;
-padding: 0;
--webkit-box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-
-
-  
 }
 .body{
   z-index: -2;
@@ -123,8 +120,8 @@ padding: 0;
 
 #header{
       
-    background:#252932;
- position: fixed;
+  background:#252932;
+  position: fixed;
   float:left;
   width:100%;
   padding:20px 0;
@@ -162,18 +159,18 @@ padding: 0;
   transition:all 400ms ease;
   border-radius: 20px;
   } */
-    li:hover a:hover{
+   ul li:hover  {
+     background:#FFA200; 
 
- background:#FFA200; 
+   }
+    
 
-  font-size: 15px;
+ 
   }
   }
  
 
-  
 
-  }
 
  
  
@@ -219,7 +216,7 @@ padding: 0;
 #services{
   z-index: -4;
   background: $blancofondo;
-padding: 20rem 0 6.5rem 0;
+  padding: 20rem 0 6.5rem 0;
   position: relative;
   text-align: center;
   color: black;
@@ -354,8 +351,8 @@ padding: 20rem 0 6.5rem 0;
     }
       &:nth-child(3) {
      background-image: asset-data-url("slideder.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+     background-repeat: no-repeat;
+     background-size: cover;
    
       bottom: -37px;
       right: 0;
@@ -375,24 +372,25 @@ padding: 20rem 0 6.5rem 0;
  
 
   }
-   #portafolio{
+
+  #portafolio{
 
     z-index: -4;
    padding: 20rem 0 6.5rem 0;
-  position: relative;
-  background-color: $blancofondo;
-  text-align: center;
+   position: relative;
+   background-color: $blancofondo;
+   text-align: center;
    
   
 
       .title{
         font-weight: 2.5rem;
-  font-size: 2.7rem;
-  margin: 0 0 0.75rem 0;
+        font-size: 2.7rem;
+        margin: 0 0 0.75rem 0;
       }
       .row {
         position: relative;
-         text-align: center;
+        text-align: center;
       }
     
 
@@ -403,10 +401,10 @@ padding: 20rem 0 6.5rem 0;
 
   #contact{
   color: white;
-   z-index: -4;
+  z-index: -4;
   padding: 20rem 0 6.5rem 0;
   position: relative;
- background: black; 
+  background: black; 
   text-align: center;
   color: white;
   .title{
@@ -430,7 +428,7 @@ padding: 20rem 0 6.5rem 0;
   .pie{
     width: 100%;
     float: left;
-     padding:20px 0 3rem 0;
+    padding:20px 0 3rem 0;
     position: absolute;
     top: 180px;
 
@@ -469,11 +467,5 @@ header {
 }
 
 
- 
 
-.wrapper {
-  width: 90%;
-  margin: auto;
-  overflow:hidden;
-}
 
