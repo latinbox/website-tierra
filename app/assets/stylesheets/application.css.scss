@@ -159,14 +159,11 @@ $verdefuerte: #39b54a;
   transition:all 400ms ease;
   border-radius: 20px;
   } */
-   ul li:hover a:hover {
-     background:#FFA200; 
-
-   }
-    
-
- 
-  }
+   
+    }
+    header nav ul li:hover {
+      background:#FFA200; 
+    }
   }
  
 
