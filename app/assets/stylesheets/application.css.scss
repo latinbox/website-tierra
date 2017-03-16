@@ -38,7 +38,7 @@
 
 
 
-
+@import 'normalize';
 
 // - - - - - - - - - - - - - - - - - - Variables - - - - - - - - - - - - - - - - - - - //
 $white: #FFFFFF;
@@ -84,7 +84,7 @@ $verdefuerte: #39b54a;
   color: $white;
   text-decoration: none;
   text-align: center;
-	
+  
 
 }
 .button_highlight {
@@ -456,7 +456,7 @@ $verdefuerte: #39b54a;
 
 header {
  z-index: 2500;
-  width: 90%;
+  width: 90%; 
   position: fixed;
  
 }
