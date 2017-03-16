@@ -57,9 +57,12 @@ function main () {
 <style>
 
 header {
+ 
   z-index: 2500;
   width: 90%;
   position: fixed;
+  left:55%;
+  margin: 35px auto;
 }
 </style>
 <style>
@@ -69,17 +72,15 @@ header {
 .menu_bar {
   display:none;
 }
-
-
-
 header nav ul {
   list-style:none;
+
 }
 
 header nav ul li {
   display:inline-block;
   position: relative;
-  top: 20px;
+  
  
 }
 
@@ -149,7 +150,6 @@ header nav ul li .caret {
   }
 
   .menu_bar {
-   
     display:block;
     width:100%;
     position: fixed;
@@ -175,14 +175,15 @@ header nav ul li .caret {
 
   header nav {
     /* Por qué no aparece el fondo azul en el nav??*/
+    border-radius: 4px 4px 4px 4px;
     background: #023859;
-    width: 80%;
-    height: calc(42% - 70px);
+    width: 70%;
+    height: calc(32.4% - 70px);
     position: fixed;
     right:100%;
     margin: 35px auto;
     overflow: scroll;
-
+    top: 80px;
   }
 
 
