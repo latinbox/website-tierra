@@ -134,7 +134,7 @@ $verdefuerte: #39b54a;
   background-image: asset-data-url("fondotierra.jpg");
   background-size: cover;
   background-attachment: fixed;
-  
+  /*
   .logotierra {
     float: left;
   }
@@ -143,7 +143,7 @@ $verdefuerte: #39b54a;
   float: right;
   margin: 3 auto 25rem auto;
   max-width: 1000px;
-/*
+
   ulia {
   color: $white;
   font-weight: 600;
@@ -158,12 +158,13 @@ $verdefuerte: #39b54a;
   -o-transition:all 400ms ease;
   transition:all 400ms ease;
   border-radius: 20px;
-  } */
+  } 
    
     }
     header nav ul li:hover {
       background:#FFA200; 
     }
+    */
   }
  
 
