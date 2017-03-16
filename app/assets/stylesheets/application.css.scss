@@ -60,15 +60,13 @@ $verdefuerte: #39b54a;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  
 
 }
 .body{
   z-index: -2;
   font-family: Open sans;
   text-rendering: optimizeLegibility;
-  background-image: asset-data-url("fondotierra.jpg");
-  background-size: cover;
-  background-attachment: fixed;
   
 }
 .wrapper {
