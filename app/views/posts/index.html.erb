@@ -44,7 +44,7 @@
     <section id="past-work">
     <div class="wrapper">
       <h2 class="title">Nuestra experiencia</h2>
-
+      <hr class="style14">
       <div class="logos">
       <%= link_to root_path do %>
         <%= image_tag "logosreal.png",  :style => "width: 450px; max-width: 95%;"%>
@@ -74,8 +74,7 @@
   </section>
     <div class="container">
     <h2 class="title">Album tierra</h2>
-     
-     
+       <hr class="style14">
    <div class="content">
         <h2>Lily</h2>
         <div class="grid">
@@ -96,10 +95,113 @@
                 <h2>Nice <span>Lily</span></h2>
                 <p>Lily likes to play with crayons and pencils</p>
               </div>
-              <a href="#">View more</a>
+              <a href="#">Ver más</a>
             </figcaption>     
           </figure>
         </div>
+        <h2>Ceim</h2>
+        <div class="grid">
+          <figure class="effect-lily">
+             <%= image_tag "señorawork.jpg" %>
+            <figcaption>
+              <h2>Empresa <span>CEIM</span></h2>
+              <p>Inauguración de camiones <br>21 Junio, Antofagasta 2015</p>
+              <a href="#">Ver más</a>
+            </figcaption>     
+          </figure>
+          <figure class="effect-lily">
+             <%= image_tag "señoragrua.jpg" %>
+            <figcaption>
+              <h2>Empresa <span>CEIM</span></h2>
+              <p>Inauguración de camiones <br>21 Junio, Antofagasta 2015</p>
+              <a href="#">Ver más</a>
+            </figcaption>     
+          </figure>
+        </div>
+        <h2>Honey</h2>
+        <div class="grid">
+          <figure class="effect-honey">
+              <%= image_tag "1.jpg" %>
+            <figcaption>
+              <h2>Dreamy <span>Honey</span> <i>Now</i></h2>
+              <a href="#">Ver más</a>
+            </figcaption>     
+          </figure>
+          <figure class="effect-sadie">
+              <%= image_tag "14.jpg" %>
+            <figcaption>
+              <h2>Dreamy <span>Sadie</span> <i>Now</i></h2>
+              <a href="#">Ver más</a>
+            </figcaption>     
+          </figure>
+        </div>
+
+        <style>
+          /*---------------*/
+          /***** Honey *****/
+          /*---------------*/
+
+          figure.effect-honey {
+            background: #4a3753;
+          }
+
+          figure.effect-honey img {
+            opacity: 0.9;
+            -webkit-transition: opacity 0.35s;
+            transition: opacity 0.35s;
+          }
+
+          figure.effect-honey:hover img {
+            opacity: 0.5;
+          }
+
+          figure.effect-honey figcaption::before {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background: #fff;
+            content: '';
+            -webkit-transform: translate3d(0,10px,0);
+            transform: translate3d(0,10px,0);
+          }
+
+          figure.effect-honey h2 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 1em 1.5em;
+            width: 100%;
+            text-align: left;
+            -webkit-transform: translate3d(0,-30px,0);
+            transform: translate3d(0,-30px,0);
+          }
+
+          figure.effect-honey h2 i {
+            font-style: normal;
+            opacity: 0;
+            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+            transition: opacity 0.35s, transform 0.35s;
+            -webkit-transform: translate3d(0,-30px,0);
+            transform: translate3d(0,-30px,0);
+          }
+
+          figure.effect-honey figcaption::before,
+          figure.effect-honey h2 {
+            -webkit-transition: -webkit-transform 0.35s;
+            transition: transform 0.35s;
+          }
+
+          figure.effect-honey:hover figcaption::before,
+          figure.effect-honey:hover h2,
+          figure.effect-honey:hover h2 i {
+            opacity: 1;
+            -webkit-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+}
+        </style>
+
   </div>
   </div>
   
