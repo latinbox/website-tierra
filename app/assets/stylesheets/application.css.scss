@@ -253,6 +253,7 @@ $verdefuerte: #39b54a;
  
 
   .service{
+    display: inline-flex;
     background: $white;
     width: 90%;
     float: left;
@@ -299,9 +300,9 @@ $verdefuerte: #39b54a;
     letter-spacing: 1.6px;
   }
 
-
 }
-
+  
+  
 
 
 }
