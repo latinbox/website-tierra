@@ -235,7 +235,7 @@ $verdefuerte: #39b54a;
 
 // - - - - - - - - - - - - - - - - - - Services Styles - - - - - - - - - - - - - - - - - - - //
 #services{
-  
+  z-index: -4;
   background: $blancofondo;
   padding: 12rem 0 6.5rem 0;
   position: relative;
@@ -253,10 +253,10 @@ $verdefuerte: #39b54a;
  
 
   .service{
-    top: 30px;
     background: $white;
     width: 90%;
     float: left;
+    left: 30px;
     margin: 2rem 2% 4 6%;
     padding: 0.9rem 3.7%;
     text-align: center;
@@ -289,7 +289,7 @@ $verdefuerte: #39b54a;
 
   }
   h6 {
-
+    
     margin: 0;
     font-size: 1.2rem;
     color: black;
