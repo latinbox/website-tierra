@@ -235,6 +235,7 @@ $verdefuerte: #39b54a;
 
 // - - - - - - - - - - - - - - - - - - Services Styles - - - - - - - - - - - - - - - - - - - //
 #services{
+  
   z-index: -4;
   background: $blancofondo;
   padding: 12rem 0 6.5rem 0;
@@ -253,6 +254,7 @@ $verdefuerte: #39b54a;
  
 
   .service{
+    position: relative;
     top: 40px;
     background: $white;
     width: 90%;
@@ -300,7 +302,9 @@ $verdefuerte: #39b54a;
 
 
 }
-
+#services .service {
+    top: 25px;
+}
 
 
 }
