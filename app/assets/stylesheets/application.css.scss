@@ -256,7 +256,7 @@ $verdefuerte: #39b54a;
   .service{
 
     background: $white;
-    width: 100%;
+    width: 120%;
     max-height: 250px;
     float: left;
     left: 30px;
@@ -295,6 +295,7 @@ $verdefuerte: #39b54a;
   h6 {
     
     margin: 0;
+    max-height: 250px;
     font-size: 1.2rem;
     color: black;
     font-family: Open sans;
