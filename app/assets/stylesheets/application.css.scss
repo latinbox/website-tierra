@@ -74,6 +74,7 @@ $verdefuerte: #39b54a;
   width: 1800px;
   height: 1400px;
   max-width: 90%;
+  max-height: 100%;
 
   margin: 0 auto;
 }
@@ -236,6 +237,7 @@ $verdefuerte: #39b54a;
 
 // - - - - - - - - - - - - - - - - - - Services Styles - - - - - - - - - - - - - - - - - - - //
 #services{
+
   z-index: -4;
   background: $blancofondo;
   padding: 10rem 0 6.5rem 0;
@@ -295,6 +297,7 @@ $verdefuerte: #39b54a;
 
 
 #past-work{
+
   z-index: -4;
   background: $fondolila;
   padding: 10rem 0 6.5rem 0;
@@ -407,7 +410,7 @@ $verdefuerte: #39b54a;
   #portafolio{
 
     z-index: -4;
-   padding: 20rem 0 6.5rem 0;
+   padding: 10rem 0 6.5rem 0;
    position: relative;
    background-color: $blancofondo;
    text-align: center;
