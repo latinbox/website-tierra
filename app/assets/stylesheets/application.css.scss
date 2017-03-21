@@ -72,8 +72,9 @@ $verdefuerte: #39b54a;
 .wrapper {
   
   width: 1800px;
-  height: 1050px;
+  height: 1200px;
   max-width: 90%;
+
   margin: 0 auto;
 }
 
@@ -235,7 +236,6 @@ $verdefuerte: #39b54a;
 
 // - - - - - - - - - - - - - - - - - - Services Styles - - - - - - - - - - - - - - - - - - - //
 #services{
-  top: 20px;
   z-index: -4;
   background: $blancofondo;
   padding: 12rem 0 6.5rem 0;
