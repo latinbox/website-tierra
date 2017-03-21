@@ -154,6 +154,9 @@ $verdefuerte: #39b54a;
   background-image: asset-data-url("fondotierra.jpg");
   background-size: cover;
   background-attachment: fixed;
+  @media screen and (max-width: 700px){
+    
+  }
   } 
   .logotierra {
   
