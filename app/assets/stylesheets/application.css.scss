@@ -71,7 +71,7 @@ $verdefuerte: #39b54a;
 .wrapper {
   
   width: 1800px;
-  height: 660px;
+  height: 700px;
   max-width: 90%;
  
 
@@ -154,44 +154,7 @@ $verdefuerte: #39b54a;
   background-image: asset-data-url("fondotierra.jpg");
   background-size: cover;
   background-attachment: fixed;
-  /*
-  .logotierra {
-    float: left;
-  }
-
-  header nav {
-  float: right;
-  margin: 3 auto 25rem auto;
-  max-width: 1000px;
-
-  ulia {
-  color: $white;
-  font-weight: 600;
-  position: relative;
-   top: 40px;
-  text-decoration: none; 
-  margin-left: 1.5rem;
-  display:inline-block;
-  line-height:normal;
-  font-size:12px;
-  -webkit-transition:all 400ms ease;
-  -o-transition:all 400ms ease;
-  transition:all 400ms ease;
-  border-radius: 20px;
   } 
-   
-    }
-    header nav ul li:hover {
-      background:#FFA200; 
-    }
-    */
-  }
- 
-
-
-
- 
- 
   .logotierra {
   
   float: left;
@@ -399,6 +362,12 @@ $verdefuerte: #39b54a;
 
   }
     }
+
+    // - - - - - - - - - - - - - - - - - - ALBUM FOTOS - - - - - - - - - - - - - - - - - - - //
+  #album {
+    
+  }
+
     
 // - - - - - - - - - - - - - - - - - - Ultimos eventos - - - - - - - - - - - - - - - - - - - //
  
@@ -429,6 +398,7 @@ $verdefuerte: #39b54a;
   }
 
   // - - - - - - - - - - - - - - - - - - CONTACTO - - - - - - - - - - - - - - - - - - - //
+
 
 
   #contact{
