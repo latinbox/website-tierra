@@ -59,7 +59,7 @@ $verdefuerte: #39b54a;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-
+  color: white;
 
 }
 .body{
@@ -201,17 +201,18 @@ $verdefuerte: #39b54a;
 
 
 // - - - - - - - - - - - - - - - - - - Services Styles - - - - - - - - - - - - - - - - - - - //
-#services{
+#nosotros{
 
   z-index: -4;
-  background: $blancofondo;
+  
   padding: 10rem 0 6.5rem 0;
   position: relative;
   text-align: center;
-  color: black;
+  color: white;
 
    
    .title {
+   color: white;
    font-family: 'Roboto', sans-serif;
    font-size: 3.8rem;
    margin: 0 0 0.75rem 0;
@@ -223,6 +224,7 @@ $verdefuerte: #39b54a;
     font-size: 2.5rem;
     color: black;
     font-family: Open sans;
+    color: white;
   }
 
   .button{
@@ -232,11 +234,11 @@ $verdefuerte: #39b54a;
 
     margin: 0;
     font-size: 1.5rem;
-    color: black;
+    
     font-family: Open sans;
     opacity: 1.2rem;
     letter-spacing: 1.3px;
-
+    color: white;
 
   }
   h6 {
@@ -244,7 +246,7 @@ $verdefuerte: #39b54a;
     margin: 0;
     max-height: 250px;
     font-size: 1.2rem;
-    color: black;
+    color: white;
     font-family: Open sans;
     opacity: 1.2px;
     letter-spacing: 1.6px;
@@ -263,7 +265,7 @@ $verdefuerte: #39b54a;
 
 #past-work{
 
-  background: $fondolila;
+  
   padding: 7rem 0 2.5rem 0;
   position: relative;
   text-align: center;
@@ -275,7 +277,7 @@ $verdefuerte: #39b54a;
   margin: 0 0 0.75rem 0;
     }
   #slider_buttons{
-      background: $fondolila;
+    
     list-style: none;
     padding: 0;
     margin: 2rem 0;
@@ -303,6 +305,7 @@ $verdefuerte: #39b54a;
       list-style: none;
       border-radius: .35rem;
       margin-left: 0px;
+
 
     li {
       width: 600px;
@@ -366,11 +369,7 @@ $verdefuerte: #39b54a;
   }
     }
 
-    // - - - - - - - - - - - - - - - - - - ALBUM FOTOS - - - - - - - - - - - - - - - - - - - //
-  #album {
-    
-  }
-
+ 
     
 // - - - - - - - - - - - - - - - - - - Ultimos eventos - - - - - - - - - - - - - - - - - - - //
  
