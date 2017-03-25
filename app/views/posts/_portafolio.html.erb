@@ -1,0 +1,17 @@
+<section id="portafolio">
+<div class="wrapper">
+   <h2 class="title">Últimos eventos</h2>
+   <hr><hr><hr><hr><hr>
+   <div class="row">
+
+                <% @posts.each do |post| %>
+                <div class="col-sm-4 portfolio-item">
+                <%= link_to post_path(post) do %>
+                  <%= image_tag post.image, class: 'img-responsive' %>
+                <% end %>
+                </div>
+            <% end %>
+        </div>
+
+</div>
+</section>

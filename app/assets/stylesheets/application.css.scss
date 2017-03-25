@@ -59,22 +59,19 @@ $verdefuerte: #39b54a;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  color: white;
+  
 
 }
 .body{
- 
+  
   font-family: 'Roboto', sans-serif;
   text-rendering: optimizeLegibility;
   
 }
 .wrapper {
-  
   width: 1800px;
-  height: 700px;
+  height: 800px;
   max-width: 90%;
- 
-
   margin: 0 auto;
 }
 
@@ -100,8 +97,8 @@ $verdefuerte: #39b54a;
 
 }
 .button{
-  margin: 0.95rem;
-  -webkit-transition-duration: 0.4s; /* Safari */
+    margin: 0.95rem;
+    -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     text-decoration: none;
     overflow: hidden;
@@ -144,7 +141,6 @@ $verdefuerte: #39b54a;
 
 #header{
       
-  background:#252932;
   position: fixed;
   float:left;
   width:100%;
@@ -165,7 +161,9 @@ $verdefuerte: #39b54a;
 }
 
 
+
   .content {
+  
   padding: 23rem 0 6rem 0;
   .title, .sub-title{
   color: $white;
@@ -181,6 +179,7 @@ $verdefuerte: #39b54a;
   }
 
   .subtitle{
+  color: #848484;
   font-family: Open sans, sans-serif;
   font-size: 2.35rem;
   width: 500px;
@@ -202,36 +201,31 @@ $verdefuerte: #39b54a;
 
 // - - - - - - - - - - - - - - - - - - Services Styles - - - - - - - - - - - - - - - - - - - //
 #nosotros{
-
   z-index: -4;
-  
   padding: 10rem 0 6.5rem 0;
   position: relative;
   text-align: center;
-  color: white;
-
-   
+  color: #777777; 
    .title {
-   color: white;
+   color: #333333;
    font-family: 'Roboto', sans-serif;
    font-size: 3.8rem;
    margin: 0 0 0.75rem 0;
    letter-spacing: 1px;
   }
-      
-  h3{
+    
+  .h3{
+    
     margin: 0;
     font-size: 2.5rem;
-    color: black;
     font-family: Open sans;
-    color: white;
   }
 
   .button{
     padding: .3rem 2rem;
   }
   .h4 {
-
+    color: #777777; 
     margin: 0;
     font-size: 1.5rem;
     
@@ -242,7 +236,7 @@ $verdefuerte: #39b54a;
 
   }
   h6 {
-    
+    color: #777777; 
     margin: 0;
     max-height: 250px;
     font-size: 1.2rem;
@@ -272,9 +266,13 @@ $verdefuerte: #39b54a;
   
   
   .title{
-  color: $white;
-  font-size: 2.7rem;
-  margin: 0 0 0.75rem 0;
+
+   color: #333333;
+   font-family: 'Roboto', sans-serif;
+   font-size: 3.8rem;
+   margin: 0 0 0.75rem 0;
+   letter-spacing: 1px;
+
     }
   #slider_buttons{
     
@@ -333,13 +331,13 @@ $verdefuerte: #39b54a;
       -webkit-transform: scale(.9,.9);
       -moz-transform: scale(.9,.9);
       transform: scale(.9,.9);
-     
+ 
      
     }
       &:nth-child(2) {
       background-image: asset-data-url("slidemid.jpg");
       background-repeat: no-repeat;
-      background-size: cover;
+      
       left: 50%;
       margin-left: -300px;
       -webkit-transform: scale(.9,.9);
@@ -347,7 +345,7 @@ $verdefuerte: #39b54a;
       transform: scale(.9,.9);
       z-index: 4;
       bottom: -57px;
-     
+      
      
     }
       &:nth-child(3) {
@@ -381,15 +379,16 @@ $verdefuerte: #39b54a;
     z-index: -4;
    padding: 10rem 0 6.5rem 0;
    position: relative;
-   background-color: $blancofondo;
    text-align: center;
    
   
 
       .title{
-        font-weight: 2.5rem;
-        font-size: 2.7rem;
-        margin: 0 0 0.75rem 0;
+         color: #333333;
+         font-family: 'Roboto', sans-serif;
+         font-size: 3.8rem;
+         margin: 0 0 0.75rem 0;
+         letter-spacing: 1px;
       }
       .row {
         position: relative;
@@ -403,21 +402,19 @@ $verdefuerte: #39b54a;
 
 
 
-  #contact{
-  color: white;
+  #contacto{
   z-index: -4;
-  padding: 20rem 0 6.5rem 0;
+  padding: 2rem 0 6.5rem 0;
   position: relative;
-  background: black; 
   text-align: center;
-  color: white;
   .title{
-  color: white;
-  font-size: 2.7rem;
-  margin: 0 0 0.75rem 0;
+   color: #333333;
+   font-family: 'Roboto', sans-serif;
+   font-size: 3.8rem;
+   margin: 0 0 0.75rem 0;
+   letter-spacing: 1px;
       }
       .subtitle{
-        color: white;
         font-size: 1.5rem;
         width: 600px;
         max-width: 100%;
@@ -425,46 +422,46 @@ $verdefuerte: #39b54a;
         margin: 0 auto 4rem auto;
       }
 
-
   }
+  
     // - - - - - - - - - - - - - - - - - - FOOTER - - - - - - - - - - - - - - - - - - - //
 
-  .pie{
+     #footer{
     width: 100%;
     float: left;
     padding:20px 0 3rem 0;
     position: absolute;
-    top: 180px;
-
+    bottom: 0px;
     border-top: solid 1.5px black;
     text-align: center;
-    background:#FFA200; 
     display:block;
-
-.copyright{
-  text-align: center;
-  font-weight: 600;
-  color: black;
-  a {
-     color: $verdefuerte;
-     text-decoration: none;
-  }
-}
+    .copyright{
+      text-align: center;
+      font-weight: 600;
+      color: black;
+      a {
+         color: $verdefuerte;
+         text-decoration: none;
+      }
+    }
     
 
   }
 
+
+
+
+
+
   
-
-
-
-
-header {
- z-index: 2500;
-  width: 90%; 
-  position: fixed;
  
-}
+
+    header {
+     z-index: 2500;
+      width: 90%; 
+      position: fixed;
+     
+    }
 
 
 

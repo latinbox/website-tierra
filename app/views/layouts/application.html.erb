@@ -12,6 +12,10 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float">
+    
+    <!-- Start WOWSlider.com HEAD section -->
+    
+    <!-- End WOWSlider.com HEAD section -->
   </head>
     
       <!-- favicon -->
@@ -56,12 +60,13 @@ function main () {
 
  </script>
  
-   <script>
+<script>
       // For Demo purposes only (show hover effect on mobile devices)
       [].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
         el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
       } );
-    </script>
+</script>
+
  
  <style>
    
@@ -82,6 +87,8 @@ header {
 header nav ul{
   float: right;
 }
+
+
 
 </style>
 
@@ -168,7 +175,7 @@ header nav ul li .caret {
 
 */
 @media screen and (max-width: 700px) {
-   
+  
 
   body {
     padding-top:120px;
@@ -495,12 +502,12 @@ figure.effect-sadie:hover p {
 .clearfix:after { clear: both; }
 
 body {
-  background: #2f3238;
-  color: #fff;
-  font-weight: 400;
-  font-size: 1em;
-  font-family: 'Raleway', Arial, sans-serif;
+
+background-image: url(https://subtlepatterns.toptal.io/designers/subtlepatterns/wp-content/uploads/2012/01/white_texture.png);
+
 }
+
+
 
 a {
   outline: none;
@@ -685,6 +692,11 @@ section {
 
 
 <%= render 'shared/header' %>
+<%= render 'posts/nosotros' %>
+<%= render 'posts/album' %>
+<%= render 'posts/past-work' %>
+<%= render 'posts/portafolio' %>
+<%= render 'posts/contacto' %>
 
    <%= yield %>
 <%= render 'shared/socialnetwork' %>
